@@ -136,7 +136,7 @@ function HeroSection() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="https://placehold.co/550x550.png"
+              src="/image/hero-image.png"
               alt="NeoPulse Smartwatch"
               width={550}
               height={550}
@@ -212,9 +212,9 @@ function FeaturesSection() {
 
 function ShowcaseSection() {
   const showcaseImages = [
-    { src: "https://placehold.co/1200x600.png", alt: "NeoPulse on a wrist during a workout", hint: "smartwatch lifestyle"},
-    { src: "https://placehold.co/1200x600.png", alt: "Close-up of the NeoPulse watch face", hint: "smartwatch on wrist" },
-    { src: "https://placehold.co/1200x600.png", alt: "NeoPulse showing a notification", hint: "smartwatch interface" },
+    { src: "/image/action-shot.png", alt: "NeoPulse on a wrist during a workout", hint: "smartwatch lifestyle"},
+    { src: "/image/hero-image.png", alt: "Close-up of the NeoPulse watch face", hint: "smartwatch on wrist" },
+    { src: "/image/hero-image.png", alt: "NeoPulse showing a notification", hint: "smartwatch interface" },
   ];
 
   return (
